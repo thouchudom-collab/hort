@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidsCode - ចុះឈ្មោះ និងទំនាក់ទំនង</title>
+    <link rel="stylesheet" href="Amm.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">🚀 KidsCode KH</a>
+            <ul class="nav-links">
+                <li><a href="index.html">ទំព័រដើម</a></li>
+                <li><a href="courses.html">វគ្គសិក្សា</a></li>
+                <li><a href="games.html">ហ្គេមរៀនកូដ</a></li>
+                <li><a href="resources.html">ឯកសារជំនួយ</a></li>
+                <li><a href="contact.html" class="active btn-nav">ចុះឈ្មោះរៀន</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-banner">
+        <h1>ចុះឈ្មោះចូលរៀន / ទំនាក់ទំនង</h1>
+        <p>បំពេញព័ត៌មានខាងក្រោម ដើម្បីទទួលបានការប្រឹក្សា និងចុះឈ្មោះរៀន</p>
+    </div>
+
+    <main class="container">
+        <div class="card" style="max-width: 650px; margin: 0 auto; text-align: left;">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="student-name">ឈ្មោះសិស្ស (Student Name):</label>
+                    <input type="text" id="student-name" required placeholder="ឧទាហរណ៍៖ សុខ ជា">
+                </div>
+
+                <div class="form-group">
+                    <label for="age">អាយុ (Age):</label>
+                    <input type="number" id="age" min="5" max="18" required placeholder="ឧទាហរណ៍៖ ៩">
+                </div>
+
+                <div class="form-group">
+                    <label for="parent-phone">លេខទូរស័ព្ទមាតាបិតា (Parent Phone):</label>
+                    <input type="tel" id="parent-phone" required placeholder="012 345 678">
+                </div>
+
+                <div class="form-group">
+                    <label for="course">ជ្រើសរើសវគ្គសិក្សា (Select Course):</label>
+                    <select id="course" required>
+                        <option value="">-- សូមជ្រើសរើស --</option>
+                        <option value="scratch">Scratch Junior & Animation</option>
+                        <option value="web">HTML & CSS Web Design</option>
+                        <option value="python">Python Programming</option>
+                        <option value="roblox">Roblox Game Dev</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">សារបន្ថែម (Message):</label>
+                    <textarea id="message" rows="4" placeholder="សរសេរព័ត៌មានបន្ថែម ឬសំណួរ..."></textarea>
+                </div>
+
+                <button type="submit" class="btn" style="width: 100%;">ផ្ញើព័ត៌មានចុះឈ្មោះ 🚀</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 KidsCode KH - រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+    </footer>
+
+</body>
+</html>
